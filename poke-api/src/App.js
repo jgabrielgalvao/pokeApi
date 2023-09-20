@@ -25,7 +25,7 @@ function App() {
   };
 
   useEffect(() => {
-    loadApi("charizard");
+    loadApi();
   }, []);
 
   return (
