@@ -49,11 +49,10 @@ function App() {
       <img className="imagemPoke" src={pokemon.sprites?.front_default} alt={pokemon.name} /><br/>
       <div className="stats"><strong>NOME:</strong> {pokemon.name}</div>
       <div className="stats"><strong>N°:</strong> {pokemon.id}</div>
-      <div className="stats"><strong>PESO:</strong> {pokemon.weight ? pokemon.weight / 10 : 0}</div>
-      <div className="stats"><strong>ALTURA:</strong> {pokemon.height ? pokemon.height / 10 : 0}</div>
+      <div className="stats"><strong>PESO:</strong> {pokemon.weight ? pokemon.weight : 0}</div>
+      <div className="stats"><strong>ALTURA:</strong> {pokemon.height ? pokemon.height : 0}</div>
       <div className="stats"><strong>HP:</strong> {pokemon.stats ? pokemon.stats[0]?.base_stat : null}</div>
       <div className="stats"><strong>ATTACK:</strong> {pokemon.stats ? pokemon.stats[1]?.base_stat : null}</div>
-      <div className="stats"><strong>PESO:</strong> {pokemon.weight ? pokemon.weight : 0}</div>
       </div>
       </div>
     </div>
