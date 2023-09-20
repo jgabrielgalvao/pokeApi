@@ -3,6 +3,10 @@
 
 Uma página construída com react e utilizando uma api para mostrar diversas informações sobre o pokemon que você quiser!
 
+## Teste você mesmo!
+
+https://poke-api-flax.vercel.app/
+
 ## Documentação da API
 
 ## Stack utilizada
@@ -31,7 +35,7 @@ Recebe um nome como parâmetro e retorna as informações do pokemon desejado.
 Instale dessa forma
 
 ```bash
-  git clone nomedorepo
+  git clone https://github.com/jgabrielgalvao/pokeApi
   cd pokeApi
   cd poke-api 
   npm install
