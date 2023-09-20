@@ -52,4 +52,4 @@ Abre [http://localhost:3000](http://localhost:3000) para visualizar em seu naveg
 
 ## Screenshots
 
-![App Screenshot](poke-api/public/Captura de tela de 2023-09-20 18-59-23.png)
+![Alt text](/relative/poke-api/public/Captura de tela de 2023-09-20 18-59-23.png)
