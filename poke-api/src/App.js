@@ -24,10 +24,6 @@ function App() {
     loadApi(valorInput);
   };
 
-  useEffect(() => {
-    loadApi();
-  }, []);
-
   return (
     <div className="container">
       <header>
